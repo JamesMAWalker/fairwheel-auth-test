@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App,
+#__next {
+  height: 100%;
+  width: 100%;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  padding-top: 5vh;
+  background-color: steelblue;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.option-buttons {
+  display: flex; 
+  flex-direction: column;
+
+  button {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+  
+  .sign-in,
+  .sign-out {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+  }
+
+  .sign-up {
+    background-color: white;
+    color: steelblue;
+  }
+}
